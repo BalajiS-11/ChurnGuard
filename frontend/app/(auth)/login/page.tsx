@@ -24,9 +24,8 @@ export default function LoginPage() {
       const { access_token, refresh_token, user } = res.data
       login(access_token, refresh_token, user)
       router.push("/dashboard")
-    } catch (err: any) {
       if (!err.response) {
-        setError("Backend server is not responding (http://localhost:8000). Please ensure the backend is running.")
+        setError(`Unable to connect to backend API at ${api.defaults.baseURL || "unknown"}. Please check your backend status and Vercel environment variables.`)
       } else {
         setError(err.response?.data?.detail || "Invalid email or password.")
       }

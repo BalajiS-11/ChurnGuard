@@ -1,4 +1,4 @@
-﻿import time
+import time
 import uuid
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, status
@@ -56,10 +56,11 @@ app = FastAPI(
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
-# CORS Middleware
+# CORS Middleware - allows localhost, Vercel deployments, and production domains
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origins_list,
+    allow_origin_regex=r"^https?://.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

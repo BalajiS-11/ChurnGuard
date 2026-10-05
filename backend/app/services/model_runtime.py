@@ -1,4 +1,4 @@
-﻿import os
+import os
 import joblib
 from pathlib import Path
 from typing import Dict, Any, Optional
@@ -25,6 +25,19 @@ class ModelRuntime:
             raise FileNotFoundError(f"Model artifact not found at {path}. Please train the model first.")
             
         print(f"Loading ML model artifact from {path}...")
+        
+        # Scikit-learn compatibility patch for cross-version unpickling
+        try:
+            import sklearn.compose._column_transformer as ct
+            from collections import UserList
+            if not hasattr(ct, "_RemainderColsList"):
+                class _RemainderColsList(UserList):
+                    def __init__(self, columns=None, *args, **kwargs):
+                        super().__init__(columns or [])
+                ct._RemainderColsList = _RemainderColsList
+        except Exception:
+            pass
+
         self.bundle = joblib.load(path)
         
         # Instantiate SHAP explainer
