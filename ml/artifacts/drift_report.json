@@ -1,0 +1,87 @@
+[
+  {
+    "feature": "CreditScore",
+    "psi": 0.0042,
+    "status": "ok"
+  },
+  {
+    "feature": "Age",
+    "psi": 0.011,
+    "status": "ok"
+  },
+  {
+    "feature": "Tenure",
+    "psi": 0.0056,
+    "status": "ok"
+  },
+  {
+    "feature": "Balance",
+    "psi": 0.0029,
+    "status": "ok"
+  },
+  {
+    "feature": "NumOfProducts",
+    "psi": 0.0012,
+    "status": "ok"
+  },
+  {
+    "feature": "HasCrCard",
+    "psi": 0.0,
+    "status": "ok"
+  },
+  {
+    "feature": "IsActiveMember",
+    "psi": 0.0,
+    "status": "ok"
+  },
+  {
+    "feature": "EstimatedSalary",
+    "psi": 0.0069,
+    "status": "ok"
+  },
+  {
+    "feature": "balance_salary_ratio",
+    "psi": 0.0021,
+    "status": "ok"
+  },
+  {
+    "feature": "tenure_age_ratio",
+    "psi": 0.0023,
+    "status": "ok"
+  },
+  {
+    "feature": "products_per_tenure",
+    "psi": 0.0031,
+    "status": "ok"
+  },
+  {
+    "feature": "is_zero_balance",
+    "psi": 0.0,
+    "status": "ok"
+  },
+  {
+    "feature": "engagement_score",
+    "psi": 0.0013,
+    "status": "ok"
+  },
+  {
+    "feature": "Geography",
+    "psi": 0.0023,
+    "status": "ok"
+  },
+  {
+    "feature": "Gender",
+    "psi": 0.0012,
+    "status": "ok"
+  },
+  {
+    "feature": "age_group",
+    "psi": 0.0017,
+    "status": "ok"
+  },
+  {
+    "feature": "credit_band",
+    "psi": 0.0039,
+    "status": "ok"
+  }
+]

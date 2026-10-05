@@ -1,0 +1,3 @@
+CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,ChurnProbability,RiskTier,PredictedChurn,RevenueAtRisk
+TEMP_1,Unknown,619,France,Female,42,2,0.0,1,1,1,101348.88,0.2593,low,1,301.69
+TEMP_2,Unknown,608,Spain,Female,41,1,83807.86,1,0,1,112542.58,0.1818,low,1,536.6

@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "feature": "Age",
+    "friendly_name": "Age",
+    "mean_abs_shap": 0.6971
+  },
+  {
+    "rank": 2,
+    "feature": "NumOfProducts",
+    "friendly_name": "Number of Products",
+    "mean_abs_shap": 0.5988
+  },
+  {
+    "rank": 3,
+    "feature": "IsActiveMember",
+    "friendly_name": "Activity Status",
+    "mean_abs_shap": 0.2112
+  },
+  {
+    "rank": 4,
+    "feature": "engagement_score",
+    "friendly_name": "Engagement Score",
+    "mean_abs_shap": 0.1995
+  },
+  {
+    "rank": 5,
+    "feature": "Geography_Germany",
+    "friendly_name": "Geography: Germany",
+    "mean_abs_shap": 0.1967
+  },
+  {
+    "rank": 6,
+    "feature": "Gender_Female",
+    "friendly_name": "Gender: Female",
+    "mean_abs_shap": 0.1891
+  },
+  {
+    "rank": 7,
+    "feature": "Balance",
+    "friendly_name": "Account Balance",
+    "mean_abs_shap": 0.1443
+  },
+  {
+    "rank": 8,
+    "feature": "balance_salary_ratio",
+    "friendly_name": "Balance-to-Salary Ratio",
+    "mean_abs_shap": 0.1159
+  },
+  {
+    "rank": 9,
+    "feature": "EstimatedSalary",
+    "friendly_name": "Estimated Salary",
+    "mean_abs_shap": 0.0903
+  },
+  {
+    "rank": 10,
+    "feature": "tenure_age_ratio",
+    "friendly_name": "Tenure-to-Age Ratio",
+    "mean_abs_shap": 0.0763
+  },
+  {
+    "rank": 11,
+    "feature": "CreditScore",
+    "friendly_name": "Credit Score",
+    "mean_abs_shap": 0.0741
+  },
+  {
+    "rank": 12,
+    "feature": "Geography_France",
+    "friendly_name": "Geography: France",
+    "mean_abs_shap": 0.0484
+  },
+  {
+    "rank": 13,
+    "feature": "Gender_Male",
+    "friendly_name": "Gender: Male",
+    "mean_abs_shap": 0.0453
+  },
+  {
+    "rank": 14,
+    "feature": "products_per_tenure",
+    "friendly_name": "Products per Tenure",
+    "mean_abs_shap": 0.0441
+  },
+  {
+    "rank": 15,
+    "feature": "age_group_40-50",
+    "friendly_name": "Age 40-50",
+    "mean_abs_shap": 0.0402
+  }
+]

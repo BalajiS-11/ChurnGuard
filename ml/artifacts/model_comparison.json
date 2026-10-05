@@ -1,0 +1,57 @@
+[
+  {
+    "model": "Logistic Regression",
+    "roc_auc": 0.781,
+    "pr_auc": 0.4983,
+    "recall": 0.7104,
+    "precision": 0.3955,
+    "f1": 0.508,
+    "accuracy": 0.72,
+    "brier_score": 0.19,
+    "train_time_sec": 3.53
+  },
+  {
+    "model": "Random Forest",
+    "roc_auc": 0.8525,
+    "pr_auc": 0.6522,
+    "recall": 0.6795,
+    "precision": 0.5533,
+    "f1": 0.6093,
+    "accuracy": 0.8227,
+    "brier_score": 0.1361,
+    "train_time_sec": 3.73
+  },
+  {
+    "model": "XGBoost",
+    "roc_auc": 0.8597,
+    "pr_auc": 0.6934,
+    "recall": 0.6879,
+    "precision": 0.5477,
+    "f1": 0.6096,
+    "accuracy": 0.8204,
+    "brier_score": 0.1277,
+    "train_time_sec": 3.19
+  },
+  {
+    "model": "LightGBM",
+    "roc_auc": 0.8592,
+    "pr_auc": 0.6911,
+    "recall": 0.7006,
+    "precision": 0.5425,
+    "f1": 0.6111,
+    "accuracy": 0.8181,
+    "brier_score": 0.1285,
+    "train_time_sec": 2.74
+  },
+  {
+    "model": "Soft-Voting Ensemble",
+    "roc_auc": 0.8635,
+    "pr_auc": 0.6912,
+    "recall": 0.6908,
+    "precision": 0.5528,
+    "f1": 0.6137,
+    "accuracy": 0.8229,
+    "brier_score": 0.1267,
+    "train_time_sec": 11.46
+  }
+]

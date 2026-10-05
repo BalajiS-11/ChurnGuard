@@ -1,0 +1,215 @@
+{
+  "dataset_shape": [
+    10000,
+    14
+  ],
+  "total_records": 10000,
+  "churn_count": 2037,
+  "retained_count": 7963,
+  "churn_rate": 0.2037,
+  "columns": [
+    "RowNumber",
+    "CustomerId",
+    "Surname",
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "Exited"
+  ],
+  "null_counts": {
+    "RowNumber": 0,
+    "CustomerId": 0,
+    "Surname": 0,
+    "CreditScore": 0,
+    "Geography": 0,
+    "Gender": 0,
+    "Age": 0,
+    "Tenure": 0,
+    "Balance": 0,
+    "NumOfProducts": 0,
+    "HasCrCard": 0,
+    "IsActiveMember": 0,
+    "EstimatedSalary": 0,
+    "Exited": 0
+  },
+  "duplicates": 0,
+  "segments": {
+    "Geography": [
+      {
+        "category": "France",
+        "total": 5014,
+        "churned": 810,
+        "churn_rate": 0.1615
+      },
+      {
+        "category": "Germany",
+        "total": 2509,
+        "churned": 814,
+        "churn_rate": 0.3244
+      },
+      {
+        "category": "Spain",
+        "total": 2477,
+        "churned": 413,
+        "churn_rate": 0.1667
+      }
+    ],
+    "Gender": [
+      {
+        "category": "Female",
+        "total": 4543,
+        "churned": 1139,
+        "churn_rate": 0.2507
+      },
+      {
+        "category": "Male",
+        "total": 5457,
+        "churned": 898,
+        "churn_rate": 0.1646
+      }
+    ],
+    "age_group": [
+      {
+        "category": "30-40",
+        "total": 4346,
+        "churned": 473,
+        "churn_rate": 0.1088
+      },
+      {
+        "category": "40-50",
+        "total": 2618,
+        "churned": 806,
+        "churn_rate": 0.3079
+      },
+      {
+        "category": "50-60",
+        "total": 869,
+        "churned": 487,
+        "churn_rate": 0.5604
+      },
+      {
+        "category": "60+",
+        "total": 526,
+        "churned": 147,
+        "churn_rate": 0.2795
+      },
+      {
+        "category": "<30",
+        "total": 1641,
+        "churned": 124,
+        "churn_rate": 0.0756
+      }
+    ],
+    "NumOfProducts": [
+      {
+        "category": "1.0",
+        "total": 5084,
+        "churned": 1409,
+        "churn_rate": 0.2771
+      },
+      {
+        "category": "2.0",
+        "total": 4590,
+        "churned": 348,
+        "churn_rate": 0.0758
+      },
+      {
+        "category": "3.0",
+        "total": 266,
+        "churned": 220,
+        "churn_rate": 0.8271
+      },
+      {
+        "category": "4.0",
+        "total": 60,
+        "churned": 60,
+        "churn_rate": 1.0
+      }
+    ],
+    "IsActiveMember": [
+      {
+        "category": "0.0",
+        "total": 4849,
+        "churned": 1302,
+        "churn_rate": 0.2685
+      },
+      {
+        "category": "1.0",
+        "total": 5151,
+        "churned": 735,
+        "churn_rate": 0.1427
+      }
+    ],
+    "credit_band": [
+      {
+        "category": "Excellent",
+        "total": 655,
+        "churned": 128,
+        "churn_rate": 0.1954
+      },
+      {
+        "category": "Fair",
+        "total": 3331,
+        "churned": 685,
+        "churn_rate": 0.2056
+      },
+      {
+        "category": "Good",
+        "total": 2428,
+        "churned": 452,
+        "churn_rate": 0.1862
+      },
+      {
+        "category": "Poor",
+        "total": 2362,
+        "churned": 520,
+        "churn_rate": 0.2202
+      },
+      {
+        "category": "Very Good",
+        "total": 1224,
+        "churned": 252,
+        "churn_rate": 0.2059
+      }
+    ],
+    "is_zero_balance": [
+      {
+        "category": "0.0",
+        "total": 6383,
+        "churned": 1537,
+        "churn_rate": 0.2408
+      },
+      {
+        "category": "1.0",
+        "total": 3617,
+        "churned": 500,
+        "churn_rate": 0.1382
+      }
+    ]
+  },
+  "financial_by_churn": [
+    {
+      "Exited": 0,
+      "avg_balance": 72745.2967788522,
+      "median_balance": 92072.68,
+      "avg_salary": 99738.39177194524,
+      "avg_credit_score": 651.8531960316463,
+      "avg_age": 37.40838879819164
+    },
+    {
+      "Exited": 1,
+      "avg_balance": 91108.53933726068,
+      "median_balance": 109349.29,
+      "avg_salary": 101465.67753068237,
+      "avg_credit_score": 645.3514972999509,
+      "avg_age": 44.8379970544919
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "brier_before": 0.1319,
+  "brier_after": 0.0953,
+  "ece_before": 0.1539,
+  "ece_after": 0.0
+}
