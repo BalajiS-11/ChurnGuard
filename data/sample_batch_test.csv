@@ -1,0 +1,11 @@
+﻿CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary
+15634602,Dupont,619,France,Female,42,2,0.00,1,1,1,101348.88
+15647311,Weber,608,Germany,Female,51,1,133807.86,3,1,0,112542.58
+15619304,Garcia,502,Spain,Male,42,8,159660.80,1,1,0,113931.57
+15701354,Schmidt,699,Germany,Female,39,1,85000.00,2,0,0,93826.63
+15737888,Martin,850,France,Male,43,2,125510.82,2,1,1,79084.10
+15574012,Muller,645,Germany,Female,48,8,113755.78,4,1,0,149756.71
+15592531,Moreau,822,France,Male,32,7,0.00,2,1,1,50062.80
+15656148,Schneider,376,Germany,Female,56,4,145046.74,3,1,0,119346.88
+15792365,Alvarez,710,Spain,Female,34,4,92051.07,2,0,1,74940.50
+15767821,Leroy,580,France,Male,45,5,110200.50,1,1,0,88300.20
